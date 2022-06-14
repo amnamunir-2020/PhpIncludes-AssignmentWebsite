@@ -1,0 +1,11 @@
+/**
+ * 8.1 - >= 601px
+ */
+
+@media screen and (min-width: 37.5625em) {
+	.admin-bar.absolute-header .site-header.scrollDown,
+	.admin-bar.non-absolute-header .site-header.scrollDown,
+	body.menu-open.admin-bar.absolute-header .site-header.scrollUp {
+	    top: 46px;
+	}
+}

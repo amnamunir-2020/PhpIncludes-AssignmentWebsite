@@ -1,0 +1,159 @@
+/**
+ * 7.3.17 - What we do
+ */
+
+/* Default CSS for Tabs */
+
+.container--tabs .nav-tabs {
+    display: inline-block;
+    overflow: auto;
+    overflow-y: hidden;
+    max-width: 100%;
+    white-space: nowrap;
+    margin: 0;
+    list-style-type: none;
+    padding: 0 8px 21px 8px;
+    transition: all 0.2s;
+    transform: scale(0.98);
+    will-change: transform;
+    user-select: none;
+    cursor: pointer;
+}
+
+.container--tabs .nav-tabs > li {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 7px;
+    width: 200px;
+}
+
+.container--tabs .nav-tabs > li > a {
+    float: left;
+    border-radius: 10px;
+    display: block;
+    padding: 14px;
+    pointer-events: none;
+    width: 100%;
+    white-space: normal;
+}
+
+.container--tabs .tab-content {
+    float: left;
+    padding-top: 28px;
+    width: 100%;
+}
+
+.container--tabs .tab-content>.tab-pane {
+    display: none;
+}
+
+.container--tabs .tab-content>.active {
+    display: block;
+}
+
+.container--tabs .nav-tabs > li.active > a,
+.container--tabs .nav-tabs > li.active > a:hover,
+.container--tabs .nav-tabs > li.active > a:focus {
+    cursor: default;
+}
+
+
+/* Custom CSS for Tabs */
+
+.container--tabs .tab-content>.tab-pane .hentry-inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.section .container--tabs .hentry {
+    float: none;
+    padding: 0;
+}
+
+.what-we-do-title {
+    font-weight: 700;
+}
+
+.container--tabs .nav-tabs > li > a > span {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.what-we-do-icon-image > img {
+    width: 40px;
+}
+
+.what-we-do-nav.nav-tabs.clicked {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+    transform: scale(1);
+}
+
+.tab-item.active {
+    position: relative;
+}
+
+.has-active-image .active-image,
+.tab-item.active .has-active-image .inactive-image {
+    display: none;
+}
+
+.tab-item.active .has-active-image .active-image  {
+    display: inline-block;
+}
+
+.tab-item.active:after {
+    border: solid transparent;
+    content: " ";
+    display: block;
+    height: 0;
+    position: absolute;
+    pointer-events: none;
+    width: 0;
+    top: 100%;
+    left: 50%;
+    border-width: 10px;
+    transform: translateX(-50%);
+    margin-top: -1px;
+}
+
+.container--tabs .tab-pane .entry-content ul,
+.container--tabs .tab-pane .entry-summary ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.container--tabs .tab-pane .entry-content ul li:before,
+.container--tabs .tab-pane .entry-summary ul li:before {
+    content: "\2713";
+    left: 0;
+    font-weight: 700;
+    position: absolute;
+}
+
+.container--tabs .tab-pane .entry-content ul li,
+.container--tabs .tab-pane .entry-summary ul li {
+    padding-left: 28px;
+    margin-bottom: 7px;
+}
+
+.container--tabs .tab-pane .entry-content ul li:last-child,
+.container--tabs .tab-pane .entry-summary ul li:last-child {
+    margin-bottom: 0;
+}
+
+.container--tabs .tab-pane .entry-content ul + p .more-button,
+.container--tabs .tab-pane .entry-summary ul + p .more-button {
+    margin-top: 7px;
+}

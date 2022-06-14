@@ -1,0 +1,164 @@
+/**
+ * 7.3.14 - Promotional Headline
+ */
+
+.promotion-section .hentry {
+    position: initial;
+}
+
+.promotion-section .post-thumbnail {
+    margin-top: 14px;
+}
+
+.post-thumbnail-background {
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.promotion-section .post-thumbnail-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.promotion-section.content-align-center .entry-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.promotion-section .entry-container {
+    max-width: 600px;
+    position: relative;
+    z-index: 2;
+}
+
+.promotion-section.content-frame .entry-container {
+    padding: 28px;
+}
+
+.promotion-section.content-frame .entry-container:before {
+    content: "";
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.promotion-section .cover-link,
+.promotion-section .cover-link:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.promotion-section .cover-link:before {
+    content: "";
+    height: 100%;
+    width: 100%;
+}
+
+.section.text-align-left,
+.section.text-align-center,
+.section.text-align-right {
+    text-align: center;
+}
+
+.promotion-section:not(.content-frame) .hentry-inner {
+    padding: 18px 0;
+}
+
+
+/* Promotional Contact */
+
+.promotion-contact .section-heading-wrapper {
+    padding: 0;
+    margin: unset;
+    text-align: unset;
+}
+
+.promotion-contact .post-thumbnail-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+}
+
+.promotion-contact .post-thumbnail-background:before,
+.promotional-video-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.promotion-contact .hentry {
+    position: initial;
+}
+
+.promotion-contact .entry-container {
+    text-align: center;
+}
+
+.promotion-contact .entry-container,
+.promotional-video-section .wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+/*Promotion Video*/
+.promotional-video-section.no-section-heading {
+    padding-bottom: 72px;
+    padding-top: 100px;
+}
+
+#promotional-video-section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.custom-video-button-play {
+    border-radius: 50%;
+    line-height: 0;
+    font-size: 24px;
+    font-size: 1.5rem;
+    text-align: center;
+    height: 70px;
+    padding: 23px;
+    width: 70px;
+    z-index: 9;
+}
+
+.custom-video-button-play svg {
+    top: 0;
+}
+
+.promotional-video-section .video-thumbnail {
+    text-align: center;
+}
+
+.admin-bar .flashy-overlay .flashy-close {
+    top: 49px;
+    right: 21px;
+}

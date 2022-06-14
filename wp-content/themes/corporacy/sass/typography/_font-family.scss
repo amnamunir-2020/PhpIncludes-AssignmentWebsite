@@ -1,0 +1,44 @@
+/**
+ * 2.2 - Font-Family
+ */
+
+body,
+button,
+input,
+select,
+textarea {
+	font-family: $body-font;
+}
+
+.site-title {
+	font-family: $site-title-font;
+}
+
+.site-description {
+	font-family: $site-tagline-font;
+}
+
+.entry-title,
+.widget-title,
+.widgettitle {
+	font-family: $content-title-font;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.custom-header .entry-title,
+.feature-slider-section .entry-title,
+.gallery-section .entry-title,
+.hero-section .entry-title,
+.promotion-section .entry-title,
+.promotion-content-section .entry-title,
+.gallery-section .entry-title,
+.promotion-contact .entry-title {
+	font-family: $heading-font;
+}
+

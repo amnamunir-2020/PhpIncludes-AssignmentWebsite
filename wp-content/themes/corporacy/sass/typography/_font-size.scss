@@ -1,0 +1,184 @@
+/**
+ * 2.3 - Font-size
+ */
+
+ .page .site-main .entry-footer .entry-meta,
+.single .site-main .entry-footer .entry-meta,
+.post-navigation .nav-subtitle {
+	font-size: 12px;
+	font-size: 0.75rem;
+}
+
+.author-link,
+.site-description,
+.breadcrumb-area,
+.woocommerce .woocommerce-breadcrumb,
+.post-navigation .meta-nav,
+.woocommerce-review__published-date,
+.site-info {
+	font-size: 13px;
+	font-size: 0.8125rem;
+}
+
+.posts-navigation,
+#content #infinite-handle span button,
+.comment-notes,
+.comment-awaiting-moderation,
+.logged-in-as,
+.form-allowed-tags,
+.comment-subscription-form,
+.widget .widget-title,
+.widget .wp-block-group h2,
+.entry-meta {
+	font-size: 14px;
+	font-size: 0.875rem;
+}
+
+ .author-bio,
+.author-description .author-title,
+.widget .hentry .entry-title,
+.search-submit,
+.pagination,
+.woocommerce-pagination,
+.breadcrumb-area,
+aside.footer-widget-area .widge,
+ul.products li.product .woocommerce-loop-product__title,
+#site-generator .site-footer-menu .social-navigation a,
+.more-button,
+.team-content-wrapper .entry-meta,
+.portfolio-content-wrapper .filter-button-group button,
+.portfolio-content-wrapper .entry-title,
+.testimonial-content-section.style-two .entry-header .entry-meta,
+.before-text,
+.after-text,
+.ui-tabs-panel,
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea,
+.section-tagline,
+#feature-slider-section .entry-meta a,
+#featured-content-section .entry-meta,
+.main-navigation a,
+.social-navigation a,
+.social-links-menu a,
+.menu-label,
+.menu-toggle,
+.menu-toggle-close,
+.dropdown-toggle,
+.search-toggle:before,
+.search-submit:before,
+.site-header-cart .cart-contents,
+.cart-contents:before,
+.what-we-do-title {
+	font-size: 16px;
+	font-size: 1rem;
+}
+
+body,
+#team-content-section .entry-title,
+.author-name .url,
+#tabs .ui-tabs-panel h2,
+.woocommerce-loop-category__title,
+#popular,
+.post-navigation .nav-title,
+#testimonial-content-section .entry-title,
+.testimonial-content-section.style-one .entry-meta,
+.comment-meta .author-name,
+#colophon,
+label {
+	font-size: 18px;
+	font-size: 1.125rem;
+}
+
+body,
+#team-content-section .entry-title,
+.author-name .url {
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.75;
+	letter-spacing: normal;
+}
+
+#tabs .ui-tabs-panel h2,
+.woocommerce-loop-category__title,
+#popular,
+.post-navigation .nav-title,
+#testimonial-content-section.style-two .entry-title,
+.testimonial-content-section.style-one .entry-meta,
+.comment-meta .author-name,
+#colophon {
+	line-height: 1.56;
+}
+
+#testimonial-content-section.style-one .entry-title {
+	line-height: 1.75;
+}
+
+.entry-title {
+	font-size: 22px;
+	font-size: 1.375rem;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.46;
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+.site-title,
+#corporacy-logo-slider-section .owl-prev:before,
+#corporacy-logo-slider-section .owl-next:before,
+.pricing-section .entry-title,
+.what-we-do-section .tab-pane .entry-title,
+.site-header.scrollDown .site-title {
+	font-size: 24px;
+	font-size: 1.5rem;
+}
+
+.comments-title,
+.comment-reply-title {
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.page-title,
+.single .site-main .entry-header .entry-title,
+.page .site-main .entry-header .entry-title,
+#footer-instagram .widget-title,
+.custom-header-content .section-title,
+.feature-slider-section .owl-dot.active:before {
+    font-size: 32px;
+    font-size: 2rem;
+}
+
+.home .header-media .entry-title,
+.feature-slider-section .entry-title {
+    font-size: 36px;
+    font-size: 2.25rem;
+    transition: 0.3s;
+}
+
+.drop-cap:first-letter {
+  	float: left;
+  	font-size: 100px;
+  	font-size: 6.25rem;
+}
+
+big {
+	font-size: 125%;
+}
+

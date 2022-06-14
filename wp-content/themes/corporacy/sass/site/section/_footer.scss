@@ -1,0 +1,82 @@
+/**
+ * 7.3.7 - Footer
+ */
+
+.widget-column {
+    float: left;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+body #colophon .widget-column.above-footer {
+    width: 100%;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+
+.site-info {
+    padding: 15px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.site-footer .widget-wrap .sub-menu {
+    display: none;
+}
+
+.footer-menu .menu-item-has-children .icon {
+    display: none;
+}
+
+.site-footer {
+    input[type="date"],
+    input[type="time"],
+    input[type="datetime-local"],
+    input[type="week"],
+    input[type="month"],
+    input[type="text"],
+    input[type="email"],
+    input[type="url"],
+    input[type="password"],
+    input[type="search"],
+    input[type="tel"],
+    input[type="number"],
+    textarea {
+        background-color: transparent;
+        border: 1px solid;
+        box-shadow: none;
+    }
+}
+
+.site-footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-navigation + #social-footer-navigation {
+    margin-top: 14px;
+}
+
+.widget.ewfeaturedpostpageimage .left .no-featured-image .entry-container, 
+.widget.ewfeaturedpostpageimage .right .no-featured-image .entry-container {
+    padding: 0;
+}
+
+.widget-area .ewfeaturedpostpageimage .featured-image {
+    max-width: 70px;
+}
+
+.widget.ewfeaturedpostpageimage .left .entry-container {
+    float: left;
+}
+
+.ew-featured-post .hentry:not(.no-featured-image) {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,60 @@
+/**
+ * 7.3.15 - Service
+ */
+
+ .section.service-section {
+    overflow: unset;
+ }
+
+.service-content-wrapper {
+    text-align: center;
+}
+
+.single-item .featured-video-content-wrapper .hentry:first-child {
+    margin: 0 auto;
+    float: none;
+}
+
+.service-section .hentry-inner {
+    padding: 28px;
+    text-align: center;
+}
+
+#service-section .more-button .more-link {
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid;
+    border-radius: 31.5px;
+}
+
+.custom-header + .section.service-section.no-section-heading,
+#feature-slider-section + .section.service-section.no-section-heading {
+    padding-top: 42px;
+}
+
+.service-section.style-two .section-content-wrapper {
+    margin-bottom: 28px;
+    position: relative;
+}
+
+.service-section.style-two .section-content-wrapper .hentry {
+    margin-bottom: 0;
+}
+
+.service-section.style-two .section-content-wrapper:before {
+    border-radius: 8px;
+    box-shadow: 0 2px 60px 0 rgba(0, 0, 0, 0.1);
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    margin: 0 auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc( 100% - 60px );
+}
+
+body #service-section.section.style-two .hentry-inner {
+    background-color: transparent;
+}
